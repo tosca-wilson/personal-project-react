@@ -8,4 +8,9 @@
 
 .homeBlurb {
   color: green;
+  width: 20%;
+}
+
+.currentMonth {
+  float: right;
 }

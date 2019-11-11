@@ -13,12 +13,20 @@ class CurrentMonth extends React.Component {
 
   render(){
     return (
-      <React.Fragment>
-        <p>hi</p>
-      </React.Fragment>
+      <>
+        <div className="currentMonth">
+          <h3>This month..</h3>
+          <ul>
+            <li>Lettuce</li>
+            <li>Tomato</li>
+            <li>Pumpkin</li>
+            <li>Beans</li>
+            <li>Beetroot</li>
+          </ul>
+        </div> 
+      </>
     )
   }
-
 }
 
 export default CurrentMonth
