@@ -16,6 +16,10 @@ exports.seed = function(knex) {
         {id: 9, name: 'Mint', month: 'November', image: 'mint.jpeg'},
         {id: 10, name: 'Peas', month: 'November', image: 'peas.jpeg'},
         {id: 11, name: 'Spring Onion', month: 'November', image: 'springonion.jpeg'},
+        {id: 12, name: 'December Peas', month: 'December', image: 'peas.jpeg'},
+        {id: 13, name: 'December Basil', month: 'December', image: 'basil.jpeg'},
+        {id: 14, name: 'January Mint', month: 'January', image: 'mint.jpeg'},
+
         
       ]);
     });

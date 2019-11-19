@@ -1,22 +1,15 @@
 import React from 'react'
 import {getPlants} from '../api/plants'
 
-class CurrentMonth extends React.Component {
+class allPlants extends React.Component {
   constructor(props) {
     super(props)
 
     this.state = {
-      style: {
-        backgroundColor: 'blue',
-      },
       plants: []
     } 
     this.getPlants()
   }
-
-    //componentDidMount(){
-    //  get current month form external api call and set state({ currentMonth })
-    //}
 
   getPlants = () => {
     getPlants()
@@ -28,8 +21,8 @@ class CurrentMonth extends React.Component {
     // console.log(plants)
     return (
       <>
-        <div className="currentMonth">
-          <h3>This month..</h3>
+        <div className="allPlants">
+          <h3>All Plants</h3>
           <ul>
             {plants.map(plant => {
               return <li>{plant.name}</li>
@@ -41,4 +34,4 @@ class CurrentMonth extends React.Component {
   }
 }
 
-export default CurrentMonth
+export default allPlants
